@@ -1,3 +1,4 @@
+from biblioteca import HelloWorld
 aluno = "Ada Lovelace"
 periodo_corrente = 10
 ira = 9.99 #Valor que defina o IRA
@@ -15,3 +16,9 @@ print(4/3)
 print(4//3)
 print(4**2)
 print(4%3)
+
+HelloWorld("print")
+
+print("Hello" + " World")
+print(pow(4,2))
+
