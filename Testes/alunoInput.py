@@ -1,0 +1,8 @@
+aluno = input("Digite o nome do aluno: ")
+periodo_corrente = input("Digite o período corrente: ")
+ira = input("Digite o IRA(Indice de rendimento academico):")
+laurea = input("Informe se você é o aluno laureado(a) da turma: ")
+print(type(aluno))
+print(type(periodo_corrente))
+print(type(ira))
+print(type(laurea))
