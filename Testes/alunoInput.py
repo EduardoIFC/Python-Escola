@@ -1,5 +1,5 @@
 aluno = input("Digite o nome do aluno: ")
-periodo_corrente = input("Digite o período corrente: ")
+periodo_corrente = int(input("Digite o período corrente: "))
 ira = float(input("Digite o IRA(Indice de rendimento academico):"))
 laurea = bool(input("Informe se você é o aluno laureado(a) da turma: (True = Sim /False = Não): "))
 print(type(aluno))
