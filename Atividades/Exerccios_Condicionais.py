@@ -90,15 +90,16 @@ while True:
     # 9. Triângulo:
     #    Peça 3 lados e verifique se formam um triângulo válido.
     elif atividade == 9:
-    # 10. Desconto para idosos/estudantes:
-    #     Peça idade e se é estudante (S/N). Dê 20% de desconto para idosos (≥60) OU estudantes.
+   
         lado1 = float(input("Digite o primeiro lado do triângulo: "))
         lado2 = float(input("Digite o segundo lado do triângulo: "))
         lado3 = float(input("Digite o terceiro lado do triângulo: "))
         if lado1 == lado2 == lado3:
             print("Os lados formam um triângulo válido")
         else:
-            print("Os lados não formam um triângulo válido")
+            print("Os lados não formam um triângulo válido") 
+    # 10. Desconto para idosos/estudantes:
+    #     Peça idade e se é estudante (S/N). Dê 20% de desconto para idosos (≥60) OU estudantes.
     # 11. Turno do dia:
     #     Peça um horário (ex: 14) e classifique em Manhã (6-12), Tarde (13-18), Noite (19-23).
 
