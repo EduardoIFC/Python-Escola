@@ -95,8 +95,8 @@ while True:
         lado3 = float(input("Digite o terceiro lado do triângulo: "))
         if lado1 == lado2 == lado3:
             print("O triangulo é equilatero")
-        elif lado1 == lado2 and lado2 != lado3:
-            print("O triangulo é ")
+        elif lado1 == lado2 and lado2 != lado3 or lado3 == lado2 and lado1 != lado3:
+            print("O triangulo é isóceles.")
         else:
             print("O triangulo é escaleno") 
     # 10. Desconto para idosos/estudantes:
