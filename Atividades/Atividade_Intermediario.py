@@ -1,4 +1,5 @@
 import os
+print("Press enter to start code")
 while True:
     input()
     os.system("clear")
@@ -188,4 +189,32 @@ while True:
             print(f"Você tera que pagar {renda * 0.15}")
         else:
             print(f"Você tera que pagar {renda * 0.225}")
+
+    elif atividade == 18:
+        meses = {"janeiro":31,"fevereiro":28,"março":31,"abril":30,"maio":31,"junho":30,"julho":31,"agosto":31,"setembro":30,"outubro":31,"novembro":30,"dezembro":31}
+        dia = int(input("Qual dia do mes é hoje? \n"))
+        mes = input("Qual mês é? \n").lower()
+        ano = input("Qual ano é? \n")
+        if mes in meses.keys():
+            if meses[mes] >= dia:
+                print("Mes, dia e ano correto")
+            else:
+                print("Dia do mes invalido.")
+        else:
+            print("Mes invalido.")
+    
+    elif atividade == 19:
+        nmrItens = int(input("Quantos itens compraste? "))
+        valor  = float(input("Qual o valor das compras? "))
+        if valor >= 10 and valor >= 100:
+            print("Ganhaste 15% de descontoo!!!")
+        else:
+            print("No discounts?")
+    elif atividade == 20:
+        velAtual = float(input("Qual a velocidade atual do veiculo? "))
+        velVia = float(input("Qual a velocidade da via? "))
+        if velAtual > velVia:
+            print(f"Multa de {(velAtual-velVia)*5} R$!!!!")
+    else:
+        print("Questão invalidaaaa!!!!")
     print("CABOU! (press enter to choose another question.)")
