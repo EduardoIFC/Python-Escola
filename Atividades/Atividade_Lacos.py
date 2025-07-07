@@ -105,5 +105,15 @@ while True:
 
 
     #10-Crie uma calculadora com menu interativo (1 - somar, 2 - subtrair, etc.) e opção de sair.
+    elif atividade == "10":
+        match input("Bom dia paizão, quer fazer conta duque?\n1 - somar\n2 - subtração\n3 - multiplicação\n4 - divisão\n5 - exponenciação\n6 - raiz quadrada"):
+            case "1": print(f"A soma deu {int(input("Digite o primeiro numero pai. "))+int(input("Digite o segundo numero pai. "))} pae.")
+            case "2": print(f"A subtração deu {int(input("Digite o primeiro numero pai. "))-int(input("Digite o segundo numero pai. "))} pae.")
+            case "3": print(f"A multiplicação deu {int(input("Digite o primeiro numero pai. "))*int(input("Digite o segundo numero pai. "))} pae.")
+            case "4": print(f"A divisão deu {int(input("Digite o primeiro numero pai. "))/int(input("Digite o segundo numero pai. "))} pae.")
+            case "5": print(f"A exponenciação deu {int(input("Digite o primeiro numero pai. "))**int(input("Digite o segundo numero pai. "))} pae.")
+            case "6": print(f"A raiz quadrada deu {int(input("Digite o  numero pai. "))**0.5}")
+            case _: print("Tu é acefalo é?")
+
     input("\n Question ended, press enter to choose other question. \n")
     os.system("clear")
